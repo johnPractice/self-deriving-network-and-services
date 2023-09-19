@@ -1,0 +1,15 @@
+--index-url https://pypi.python.org/simple/
+
+--editable git+https://github.com/RealVNF/common-utils@tnsm2021#egg=common-utils
+--editable git+https://github.com/RealVNF/coord-sim@tnsm2021#egg=coord-sim
+
+--editable .
+click==7.0
+numpy>=1.16.5<1.19
+keras==2.2.5
+keras-rl==0.4.2
+tensorflow==1.14.0
+cloudpickle==1.2
+gym[atari]==0.14.0
+pandas==1.0.0
+h5py==2.10
